@@ -1,0 +1,26 @@
+{
+    "name": "ko/kophp",
+    "description": "Description of project kophp.",
+     "type": "project",
+    "authors": [
+        {
+            "name": "changchun.yu",
+            "email": "yucc1219@163.com"
+        }
+    ],
+    "homepage": "http://kophp.cn/",
+    "license": "Apache-2.0",
+    "require": {
+         "smarty/smarty": "~3.1",
+         "psy/psysh": "0.8.*",
+         "symfony/http-kernel": "3.2.*",
+         "symfony/debug": "3.2.*",
+         "symfony/routing": "3.2.*"
+     },
+    "autoload": {
+        "psr-4": {
+            "app\\": "application/",
+            "ko\\": "libraries/"
+        }
+    }
+}
